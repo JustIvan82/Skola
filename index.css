@@ -1,0 +1,89 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    
+    background-color: #B8860B;
+}
+
+.page .column {
+    height: 100vh;
+}
+
+.column {
+    display: flex;
+    margin: 0px auto;
+    
+}
+
+#logo-holder {
+    margin-right: 190px;
+    width: 230px;
+    height: 100%;
+    margin-bottom: 0px;
+    
+    
+}
+
+#slika{
+    width: 230px;
+    height: 80px;
+    
+}
+
+
+#main-menu {
+    display: flex;
+    
+   
+    
+}
+
+#main-menu a {
+    text-decoration: none;
+    padding: 30px 20px;
+    display: block;
+    flex-grow: 1;
+    color: #ffffff;
+    font-size: 13pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 450ms;
+    text-align: center;
+}
+
+#main-menu a:hover,
+#main-menu a.active {
+    background: #000000;
+    color: #ffffff;
+}
+
+#pocetna {
+    text-align: center;
+    background: url('picture/pozadina/edi2.jpg');
+    color: #000000;
+    background-size: cover;
+    background-position: 30%;
+    background-attachment: fixed;
+}
+
+#pocetna h1 {
+    text-align: center;
+    font-size: 20pt;   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.dark-box {
+    background-color: #B8860B99;
+    border: 1px solid #ffffff;
+    padding: 10px ;
+    min-width: 30vw;
+    max-width: 65vw;
+    min-height: 30vw;
+    max-height: 60vw;
+    align-self: center;   
+    margin: 0px auto;
+    text-align: start;
+    
+}
